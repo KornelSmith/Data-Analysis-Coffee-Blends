@@ -9,7 +9,7 @@ Data source: https://www.kaggle.com/datasets/hanifalirsyad/coffee-scrap-coffeere
 ## Table of Content
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
-- [Conclusions](#conclusions)
+- [Data Insights](#data-insights)
 - [Data Cleansing](#data-cleansing)
 - [Analysis](#analysis)  
 
@@ -29,7 +29,7 @@ If you want to read up on the rating system, visit this page: https://www.coffee
 - Python Pandas
 - Tableau Public
 
-## Conclusions
+## Data Insights
 
 <img width="1281" alt="Screenshot 2024-11-20 at 19 01 24" src="https://github.com/user-attachments/assets/b25cc616-37af-4006-997a-4d98dd68f90d">
 
@@ -48,3 +48,6 @@ To get a better feel of the rating, this histogram shows the ratings for the ent
 <img width="1154" alt="Screenshot 2024-11-20 at 21 03 54" src="https://github.com/user-attachments/assets/b09ad286-972e-423e-8b9c-ae03daf17886">
 
 These charts show the average quality, and average price, per roast. Darker roasts seem to have been rated as of inferior quality, which is consistent with general oppinion in coffee  communities. If beans are roasted too dark, the roasting process creates chemicals that overpower the natural flavours of the bean, which is not desirable for high-end coffee. Consqeuenty, light to medium-light roasts also have a higher price. Medium-dark roast is the most popular in Italy and France, which can explain the higher unit price for this roast.
+
+##Data Cleansing
+
