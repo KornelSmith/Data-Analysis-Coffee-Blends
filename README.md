@@ -51,3 +51,13 @@ These charts show the average quality, and average price, per roast. Darker roas
 
 ##Data Cleansing
 
+After visually inspecting the data, I decided that the following things had to be fixed:
+- the location column showed too much geographical detail, I wanted to keep only the country information
+- the origin column had the same problem, but also sometimes showing multiple origin countriess
+- the price column gave the price in the local currency of the location column, and in varying units of measurement
+
+The cleansing.py file contains the class that handles this data cleansing.
+
+#Fixing the location column
+
+shfeu
