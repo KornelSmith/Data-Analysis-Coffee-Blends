@@ -37,6 +37,14 @@ This map shows the countries where the blends in the data were grown. Most of th
 
 The darker the colour on the map, the higher the average quality is of blends that come from that region. The highest ratings came from Argentina, but coffees from Panama, Ecuador and East African countries also perform strongly.
 
-<img width="1288" alt="Screenshot 2024-11-20 at 19 08 06" src="https://github.com/user-attachments/assets/77d3d017-fd6c-453d-960b-89181bbcb927">
+<img width="1176" alt="Screenshot 2024-11-20 at 20 52 57" src="https://github.com/user-attachments/assets/561b3893-c29a-4e5b-9337-4f0426c99af6">
 
-If we plot the average quality against the average price per region, we see that most coffees in the data are concentrated at 5-10 USD / 100g and a rating of 92-94. This 
+If we plot the average quality against the average price per region, we see that most coffees in the data are concentrated at 5-10 USD / 100g and a rating of 92-94. This rating actually corresponds to the mean and median rating for the whole dataset (93). The circle size shows the number of samples taken from the corresponding country. While an increasing trend can be identified here, this is only due to the fact that the data has been aggregated by countries. The R^2 correlation is only 0.14 between price and quality.
+
+<img width="592" alt="Screenshot 2024-11-20 at 21 00 50" src="https://github.com/user-attachments/assets/080c89b5-5871-411b-9dce-e6d9bad6faf4">
+
+To get a better feel of the rating, this histogram shows the ratings for the entire dataset. 30% of the data has rating 93, which brings this to be both the mean and the median of the data.
+
+<img width="1154" alt="Screenshot 2024-11-20 at 21 03 54" src="https://github.com/user-attachments/assets/b09ad286-972e-423e-8b9c-ae03daf17886">
+
+These charts show the average quality, and average price, per roast. Darker roasts seem to have been rated as of inferior quality, which is consistent with general oppinion in coffee  communities. If beans are roasted too dark, the roasting process creates chemicals that overpower the natural flavours of the bean, which is not desirable for high-end coffee. Consqeuenty, light to medium-light roasts also have a higher price. Medium-dark roast is the most popular in Italy and France, which can explain the higher unit price for this roast.
