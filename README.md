@@ -49,7 +49,7 @@ To get a better feel of the rating, this histogram shows the ratings for the ent
 
 These charts show the average quality, and average price, per roast. Darker roasts seem to have been rated as of inferior quality, which is consistent with general oppinion in coffee  communities. If beans are roasted too dark, the roasting process creates chemicals that overpower the natural flavours of the bean, which is not desirable for high-end coffee. Consqeuenty, light to medium-light roasts also have a higher price. Medium-dark roast is the most popular in Italy and France, which can explain the higher unit price for this roast.
 
-##Data Cleansing
+## Data Cleansing
 
 After visually inspecting the data, I decided that the following things had to be fixed:
 - the location column showed too much geographical detail, I wanted to keep only the country information
@@ -58,6 +58,6 @@ After visually inspecting the data, I decided that the following things had to b
 
 The cleansing.py file contains the class that handles this data cleansing.
 
-#Fixing the location column
+# ixing the location column
 
 shfeu
