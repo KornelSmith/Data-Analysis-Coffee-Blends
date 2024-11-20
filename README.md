@@ -58,6 +58,6 @@ After visually inspecting the data, I decided that the following things had to b
 
 The cleansing.py file contains the class that handles this data cleansing.
 
-# ixing the location column
+### Fixing the location column
 
 shfeu
